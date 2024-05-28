@@ -67,4 +67,4 @@ jobs:
           lusun-scripts feishu \
             --id $FEISHU_ID \
             --secret $FEISHU_SECRET \
-            --message "{\"msg_type\": \"text\", \"content\": {\"text\": \"芦笋直播助手帮助中心发布完成～ \n访问地址 https://docs.lusun.com/lp \n执行人 ${GITHUB_ACTOR}\"}}"
+            --message "{\"msg_type\": \"text\", \"content\": {\"text\": \"芦笋直播助手帮助中心发布完成～ \n访问地址 https://docs.lusun.com/live \n执行人 ${GITHUB_ACTOR}\"}}"
