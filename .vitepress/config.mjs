@@ -10,17 +10,17 @@ export default defineConfig({
   lang: "zh-Hans",
   head: [
     ["link", { rel: "icon", href: "/live/logo.svg" }],
-    // [
-    //   "script",
-    //   {},
-    //   `var _hmt = _hmt || [];
-    //   (function() {
-    //     var hm = document.createElement("script");
-    //     hm.src = "https://hm.baidu.com/hm.js?592ba55993f3df6afcc69f8088276562";
-    //     var s = document.getElementsByTagName("script")[0];
-    //     s.parentNode.insertBefore(hm, s);
-    //   })();`,
-    // ],
+    [
+      "script",
+      {},
+      `var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?592ba55993f3df6afcc69f8088276562";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();`,
+    ],
   ],
   markdown: {
     image: {
