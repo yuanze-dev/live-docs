@@ -67,3 +67,7 @@
 #VPSidebarNav > div:nth-child(5) > section > div > div > div > a > p:hover {
   color: var(--vp-c-brand-1);
 }
+
+.gitbookimg {
+  margin: 3rem auto;
+}

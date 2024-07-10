@@ -5,8 +5,7 @@ export default defineConfig({
   base: "/live/",
   ignoreDeadLinks: true,
   title: "芦笋直播助手",
-  description:
-    "低门槛打造高水平直播间，留住观众",
+  description: "低门槛打造高水平直播间，留住观众",
   lang: "zh-Hans",
   head: [
     ["link", { rel: "icon", href: "/live/logo.svg" }],
@@ -40,8 +39,9 @@ export default defineConfig({
         text: "基础教程",
         collapsed: false,
         items: [
-          { text: "芦笋直播助手攻略", link: "/basic/index" },
-          { text: "会员特权", link: "/basic/vip" },
+          { text: "如何获取推流码", link: "/basic/streamlink" },
+          // { text: "芦笋直播助手攻略", link: "/basic/index" },
+          // { text: "会员特权", link: "/basic/vip" },
         ],
       },
       // {
