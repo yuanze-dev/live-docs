@@ -16,9 +16,9 @@ description: 你可以通过这篇文章了解到「芦笋直播助手是什么�
 
 ## 芦笋直播助手是什么？{#what}
 
-芦笋直播助手是新一代的直播工具。
+芦笋直播助手是新一代的直播工具。30秒搭建专业直播间，极简易用，非常适合直播新手，直播再也不麻烦，人人可以做直播
 
-<Link title="芦笋直播助手官网——新一代极简直播工具" logo="https://lusun.com/logo.png" url="https://lusun.com"></Link>
+<Link title="芦笋直播助手官网——新一代极简直播工具" logo="https://lusun.com/logo.png" url="https://live.lusun.com"></Link>
 
 <!-- ### 使用场景 {#scene}
 
