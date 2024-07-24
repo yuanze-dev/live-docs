@@ -16,7 +16,7 @@ export default defineConfig({
       (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?592ba55993f3df6afcc69f8088276562";
-        var s = document.getElementsByTagName("script")[0]; 
+        var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();`,
     ],
@@ -39,9 +39,8 @@ export default defineConfig({
         text: "基础教程",
         collapsed: false,
         items: [
-          { text: "如何获取推流码", link: "/basic/streamlink" },
-          // { text: "芦笋直播助手攻略", link: "/basic/index" },
-          // { text: "会员特权", link: "/basic/vip" },
+          { text: "🚀 如何 3 步开始直播", link: "/basic/how-to-start" },
+          { text: "🔐 如何获取推流码", link: "/basic/streaming-code" },
         ],
       },
       // {
