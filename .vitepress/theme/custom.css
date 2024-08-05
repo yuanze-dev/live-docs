@@ -1,23 +1,27 @@
 /* .vitepress/theme/custom.css */
 :root {
-  --vp-c-brand-1: #69C71B;
-  --vp-c-brand-2: #2F8F00;
+  --vp-c-brand-1: #69c71b;
+  --vp-c-brand-2: #2f8f00;
 }
 
 /* 文章样式调整 */
 
 /* 标题上下边距 */
-.vp-doc h2, .vp-doc h3, .vp-doc h4 {
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4 {
   margin: 1em 0;
 }
 
 /* 表格顶部对齐 */
-.vp-doc table > tbody > tr > td{
-  vertical-align: top
+.vp-doc table > tbody > tr > td {
+  vertical-align: top;
 }
 
 /* 内容居中 */
-.vp-doc th, .vp-doc tr, .vp-doc td {
+.vp-doc th,
+.vp-doc tr,
+.vp-doc td {
   text-align: center;
 }
 
@@ -25,7 +29,6 @@
   display: table;
   width: 100%;
 }
-
 
 /* 图片点击放大 */
 .medium-zoom-overlay {
@@ -49,22 +52,22 @@
 }
 
 /* 目录样式 */
-#VPSidebarNav section.VPSidebarItem div.items{
+#VPSidebarNav section.VPSidebarItem div.items {
   border-left: none;
 }
 
 /* 目录激活样式 */
-#VPSidebarNav div.VPSidebarItem.is-active div{
+#VPSidebarNav div.VPSidebarItem.is-active div {
   background-color: transparent;
 }
 
 /* 联系我们 */
-#VPSidebarNav > div:nth-child(5) > section > div > div > div > a > p {
+#VPSidebarNav > div:nth-child(3) > section > div > div > div > a > p {
   color: var(--vp-c-text-1);
   margin-left: -1em;
   font-weight: 700;
 }
-#VPSidebarNav > div:nth-child(5) > section > div > div > div > a > p:hover {
+#VPSidebarNav > div:nth-child(3) > section > div > div > div > a > p:hover {
   color: var(--vp-c-brand-1);
 }
 

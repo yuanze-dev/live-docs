@@ -39,6 +39,7 @@ export default defineConfig({
         text: "基础教程",
         collapsed: false,
         items: [
+          { text: "😃 芦笋直播助手介绍", link: "/basic/introduction" },
           { text: "🚀 如何 3 步开始直播", link: "/basic/how-to-start" },
           { text: "🔐 如何获取推流码", link: "/basic/streaming-code" },
         ],
